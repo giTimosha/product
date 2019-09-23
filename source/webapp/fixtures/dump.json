@@ -1,0 +1,108 @@
+[
+{
+  "model": "webapp.product",
+  "pk": 1,
+  "fields": {
+    "name": "TV",
+    "description": "smart TV Full HD",
+    "category": "electronics",
+    "amount": 20,
+    "price": "15000.00"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 2,
+  "fields": {
+    "name": "sausage",
+    "description": "the most delicious sausage in the online store.",
+    "category": "food",
+    "amount": 100000,
+    "price": "300.00"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 3,
+  "fields": {
+    "name": "legenda",
+    "description": "the purest water in the online store",
+    "category": "drink",
+    "amount": 100000000,
+    "price": "50.00"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 4,
+  "fields": {
+    "name": "checkered shirts",
+    "description": "the coolest shirts in the online store",
+    "category": "cloth",
+    "amount": 3252,
+    "price": "1000.00"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 5,
+  "fields": {
+    "name": "footwear",
+    "description": "the highest quality shoes in the online store",
+    "category": "cloth",
+    "amount": 72,
+    "price": "1500.00"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 6,
+  "fields": {
+    "name": "basketball ball",
+    "description": "best quality online store",
+    "category": "other",
+    "amount": 43543,
+    "price": "3000.00"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 7,
+  "fields": {
+    "name": "shawarma",
+    "description": "home delivery",
+    "category": "food",
+    "amount": 123123123,
+    "price": "120.00"
+  }
+},
+{
+  "model": "webapp.product",
+  "pk": 8,
+  "fields": {
+    "name": "laptop LG",
+    "description": "cool laptop for you",
+    "category": "electronics",
+    "amount": 432,
+    "price": "30000.00"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$FoYGl7ram3Iu$WuYBH79dTUWt6nyjcKGIgQQMFsevKUfD3CWcntCkS1k=",
+    "last_login": "2019-09-23T09:31:45.352Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-09-19T14:14:37.703Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
