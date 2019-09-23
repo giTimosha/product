@@ -10,6 +10,3 @@ class ProductForm(forms.Form):
     amount = forms.IntegerField(required=True, min_value=0, label='Количество')
     price = forms.DecimalField(required=True, max_digits=7, decimal_places=2, label='Цена')
 
-
-# class SearchForm(forms.Form):
-#     name = forms.CharField(max_length=100, required=True, label='Название')

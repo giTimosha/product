@@ -1,4 +1,7 @@
 {% extends 'base.html' %}
+{% block menu %}
+<a class="navbar-brand" href="{% url 'price_update' product.pk %}">edite</a>
+{% endblock %}
 {% block content %}
     <h1 class="my-3">{{ product.name }}</h1>
     <p>Категория: {{ product.get_category_display }}</p>
